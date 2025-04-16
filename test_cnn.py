@@ -9,7 +9,7 @@ import seaborn as sns
 
 # --- 1. Define Constants ---
 MODEL_PATH = 'traffic_sign_model.keras'  # <--- Your model file path
-TEST_DATA_DIR = 'dataset_split/train'  # <--- *** Modify this to your test dataset root directory ***
+TEST_DATA_DIR = 'dataset_split/test'  # <--- *** Modify this to your test dataset root directory ***
 
 # !! Important: The image dimensions and number of classes here must be exactly the same as used during training !!
 IMG_HEIGHT = 32  # Image height used during training
